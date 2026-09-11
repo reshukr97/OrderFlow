@@ -20,3 +20,41 @@ The application allows users to create products and place orders. It also includ
 
 The project will gradually be integrated with DevOps tools and practices such as GitHub, Jenkins, SonarQube, OWASP Dependency Check, Docker, AWS, Terraform, and Kubernetes.
 
+
+
+How to Run Locally
+
+
+
+1\. Install dependencies
+
+npm install
+
+
+
+2\. Start the application
+
+node app.js
+
+
+
+The server will start on:
+
+http://localhost:3000
+
+
+
+3\. Check the application
+
+
+
+Open:
+
+http://localhost:3000
+
+
+
+You should see:
+
+OrderFlow API is running!
+
