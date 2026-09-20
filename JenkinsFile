@@ -27,5 +27,13 @@ pipeline {
             }
         }
 
+	stage('Docker Run') {
+            steps {
+                sh 'docker stop orderflow-app || true'
+                sh 'docker rm orderflow-app || true'
+                sh 'docker run -d -p 3000:3000 --name orderflow-app orderflow:latest'
+    }
+}
+
     }
 }
